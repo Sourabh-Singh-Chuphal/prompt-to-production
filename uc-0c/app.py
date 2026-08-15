@@ -6,6 +6,7 @@ Design: Pure-Python CSV analysis — no LLM dependency.
 Strict per-ward per-category scoping. All nulls are flagged before computation.
 Every formula is shown explicitly in the output. Growth type must be specified.
 """
+from __future__ import annotations
 import argparse
 import csv
 import io

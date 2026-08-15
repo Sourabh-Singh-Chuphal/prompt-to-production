@@ -5,6 +5,7 @@ Implementation guided by agents.md (RICE framework) and skills.md.
 Design: Rule-based keyword matching — no LLM dependency required.
 All classification decisions are traceable to words in the description.
 """
+from __future__ import annotations
 import argparse
 import csv
 import re

@@ -7,6 +7,7 @@ Every clause from the source document is extracted and reproduced faithfully.
 Multi-condition obligations, numerical thresholds, and binding verbs are
 preserved exactly. A completeness check verifies all 10 critical clauses appear.
 """
+from __future__ import annotations
 import argparse
 import re
 import sys

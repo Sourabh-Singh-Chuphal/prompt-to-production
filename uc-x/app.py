@@ -8,6 +8,7 @@ document and section. Cross-document blending is prevented by design.
 The exact refusal template is returned when a question cannot be answered
 from a single document.
 """
+from __future__ import annotations
 import re
 import sys
 from pathlib import Path
